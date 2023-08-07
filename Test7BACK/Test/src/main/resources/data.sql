@@ -14,7 +14,7 @@ INSERT INTO format (id, tip, broj_ucesnika) VALUES (4, 'MASTERS 250', 250);
 
 
 
-INSERT INTO takmicenje (id, naziv, mesto, pocetak, zavrsetak, format_id) VALUES (1, 'Australian Open', 'Cirih', '22/03/2023', '29/03/2023', 2);
+INSERT INTO takmicenje (id, naziv, mesto, pocetak, zavrsetak, format_id) VALUES (1, 'Australian Open', 'Melbourne, Australia', '22/03/2023', '29/03/2023', 1);
 INSERT INTO takmicenje (id, naziv, mesto, pocetak, zavrsetak, format_id) VALUES (2, 'Australian Open1', 'Melburn','22/03/2023', '29/03/2023', 3);
 INSERT INTO takmicenje (id, naziv, mesto, pocetak, zavrsetak, format_id) VALUES (3, 'Rome','Cikago', '22/03/2023', '29/03/2023', 1);
 INSERT INTO takmicenje (id, naziv, mesto, pocetak, zavrsetak, format_id) VALUES (4, 'Cirkus Open','London', '22/03/2023', '29/03/2023', 4);
