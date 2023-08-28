@@ -14,7 +14,7 @@ public class Prijava {
 	 @GeneratedValue(strategy = GenerationType.IDENTITY)
 	 private Long id;
 	 
-	 @Column(nullable = false)
+	// @Column(nullable = false)
 	 private String drzava;
 	 
 	 @Column(nullable = false, unique=true)

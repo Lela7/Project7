@@ -50,12 +50,15 @@ public class PrijavaController {
 	        return new ResponseEntity<>(toPrijavaDTO.convert(sacuvanaPrijava), HttpStatus.CREATED);
 	    }
 	
-//		 @GetMapping
-//		public ResponseEntity<List<PrijavaDTO>> getAll() {			
-//			List<Prijava> prijave = prijavaService.findAll();		
-//			return new ResponseEntity<>(toPrijavaDTO.convert(prijave), HttpStatus.OK);
-//		}
-//	 
+		 @GetMapping
+		public ResponseEntity<List<PrijavaDTO>> getAll() {			
+			List<Prijava> prijave = prijavaService.findAll();		
+			return new ResponseEntity<>(toPrijavaDTO.convert(prijave), HttpStatus.OK);
+		}
+		 
+		 
+//		
+	 
 	 
 	 
 	    @ExceptionHandler(value = DataIntegrityViolationException.class)

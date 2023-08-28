@@ -9,7 +9,7 @@ class Prijava extends React.Component{
         super(props)
 
         let prijava = {
-            
+            drzava: "",
             kontak: "",
             datumPrijave: ""
             
@@ -34,6 +34,7 @@ class Prijava extends React.Component{
 
     create(){
         var params = {
+            "drzava": this.state.drzava,
             "kontakt": this.state.kontakt,
             "datumPrijave": this.state.datumPrijave,
 
@@ -98,6 +99,11 @@ class Prijava extends React.Component{
                                 <Form.Label>Email</Form.Label>
                                 <Form.Control
                                     id="kontakt" name="kontakt" type="email" onChange={(event) => this.valueInputChanged(event)} /> <br />
+                            </Form.Group>
+                            <Form.Group>
+                                <Form.Label>Drzava</Form.Label>
+                                <Form.Control
+                                    id="drzava" name="drzava"  onChange={(event) => this.valueInputChanged(event)} /> <br />
                             </Form.Group>
 
                             <Form.Group>

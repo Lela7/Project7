@@ -11,7 +11,7 @@ public class PrijavaDTO {
 	@Positive(message = "Id mora biti pozitivan broj.")
 	 private Long id;
 	 
-	@NotBlank
+	//@NotBlank
 	 private String drzava;
 	 
 	@NotBlank
@@ -20,7 +20,7 @@ public class PrijavaDTO {
 	@NotBlank
 	 private String datumPrijave;
 	 
-	@NotBlank
+	//@NotBlank
 	 private Long takmicenjeId;
 	 
 	 private String takmicenjeNaziv;
